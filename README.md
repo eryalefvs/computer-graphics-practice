@@ -2,7 +2,7 @@
 
 Este repositório contém atividades práticas de Computação Gráfica utilizando OpenGL com a biblioteca Glumpy em Python, equivalentes à segunda etapa da matéria Computação Gráfica, 6º período.  
 
-## 📌 Prática 2
+## 📌 Prática 1
 
 ### 🎯 Objetivo  
 A prática explora o uso da biblioteca Glumpy, que facilita a utilização do OpenGL em Python. Os códigos mesclam Python e C++ para trabalhar com primitivas gráficas como pontos, linhas e triângulos.  
