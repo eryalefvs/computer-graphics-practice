@@ -48,11 +48,13 @@ def setup():
     #draw_mode = gl.GL_POINTS
     draw_mode = gl.GL_TRIANGLES
 
-    def on_init():
-        gl.glEnable(gl.GL_BLEND)
-        gl.glBlendFunc(gl.GL_SRC_ALPHA, gl.GL_ONE_MINUS_SRC_ALPHA)
-
 window = app.Window(width=720, height=480, color=(1, 1, 1, 1))
+
+@window.event
+def on_init():
+    gl.glEnable(gl.GL_BLEND)
+    gl.glBlendFunc(gl.GL_SRC_ALPHA, gl.GL_ONE_MINUS_SRC_ALPHA)
+
 
 @window.event
 def on_draw(dt):
